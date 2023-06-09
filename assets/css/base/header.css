@@ -22,13 +22,8 @@ header{
     align-items: center;
 }
 
-header div{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: #cdcdcd;
-}
+
+
 header div,
 header nav,
 header ul{
@@ -52,8 +47,31 @@ ul> li a{
     margin: 0 5px;
 }
 
+/* todo: controlar eventos del header */
+
+header div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    transition: 0.5s linear 0.1s;
+}
+
+
+header div.off{
+    transform: translateY(-300px);
+
+}
+
+header div.solid{
+    background: #cdcdcd;
+}
+
+
 /* todo: main donde se colocaran articulos y secciones */
 
 main{
+    /* ? controla el tramaño de tu main desde: */
     width: 60vw;
-}
+} 
