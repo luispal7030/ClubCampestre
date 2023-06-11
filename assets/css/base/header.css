@@ -13,7 +13,7 @@
 }
 header{
     height: 80vh;
-    background: url(../../../src/img/fondo.jpg) center/cover no-repeat;
+    background: url(../../../src/img/bg_campestre.jpg) center/cover no-repeat;
     display: flex;
 
     /* TODOS: para centrar un texto dentro del header*/
@@ -39,12 +39,21 @@ header ul{
     list-style: none;
     padding: 0;
     gap: 10px;
+}
+ul > li{
+    height: 30px;
 
 }
 ul> li a{
     text-decoration: none;
     color: black;
     margin: 0 5px;
+
+}
+
+ul>li:hover{
+    background: #f8f4f48c;
+    border-bottom: 3px solid white;
 }
 
 /* todo: controlar eventos del header */
@@ -65,13 +74,9 @@ header div.off{
 }
 
 header div.solid{
-    background: #cdcdcd;
+    background: #ffffff;
+    color: black;
 }
 
 
-/* todo: main donde se colocaran articulos y secciones */
 
-/* main{
-    width: 60vw;
-}  
-*/

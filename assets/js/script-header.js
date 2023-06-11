@@ -16,7 +16,7 @@ window.addEventListener('scroll', function(){
 
 
     // ! verificar el color de fondo durante scroll
-    if (window.scrollY > 300) {
+    if (window.scrollY > 100) {
         div.classList.add('solid');
     }else{
         div.classList.remove('solid');
