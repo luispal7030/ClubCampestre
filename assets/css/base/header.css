@@ -51,7 +51,7 @@ ul> li a{
 
 }
 
-ul>li:hover{
+nav ul>li:hover{
     background: #f8f4f48c;
     border-bottom: 3px solid white;
 }

@@ -1,9 +1,3 @@
-@font-face {
-    font-family: oleo;
-    src: url(../../src/fonts/OleoScript-Regular.ttf),
-         
-    
-  }
   
 /* todo: main donde se colocaran articulos y secciones */
 
@@ -45,26 +39,11 @@ main{
     padding: 10px;
 }
 
-section{
-    display: flex;
-    width: 90vw
-}
-
-section div img { 
-    width: 300px;
-    height: 160px;
-    margin: 10px;
-}
-
-
-
-
-
 .oferta_title{
     height: 45px;
     margin: 20px;
     font-size: 36px;
-    font-family: 'oleo',Arial, Helvetica;
+    font-family: 'Oleo Script',Arial, Helvetica;
 }
 
 header img{
@@ -88,20 +67,6 @@ footer{
     
 }
 
-.paquete{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-
-}
-
-.menu_precio{
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 li{
     list-style: none;
@@ -112,9 +77,66 @@ button{
     width: 80px;
 }
 
+.servicios section{
+    position: relative;
+    background: white;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
 
 .servicios{
     margin: 30px 20px;
-
-
+    display: grid;
+    grid-template-columns: auto auto; /* Dos columnas del mismo ancho */
+    grid-template-rows: auto auto;
+    gap: 10px;
 }
+
+
+.servicios section div img { 
+    height: 180px;
+    width: 320px    
+}
+
+.nom_serv{
+    position: relative;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #779243;
+    font-family: 'Oleo Script';
+}
+
+/* 
+.nom_serv:hover{
+    bottom: 40px;
+    left: 40px;
+} */
+
+.paquete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    height: 10%;
+}
+
+.menu_precio{
+    margin: 10px 0;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.descripcion{
+    height: 30%;
+}
+.seleccion{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
