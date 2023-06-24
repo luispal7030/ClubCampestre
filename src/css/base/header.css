@@ -6,14 +6,15 @@
     border-radius: 20px;
     display: inline-block;
 } */
-*{
+* {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     height: 80vh;
-    background: url(../../../src/img/bg_campestre.jpg) center/cover no-repeat;
+    background: url(../../assets/img/bg_campestre.jpg) center/cover no-repeat;
     display: flex;
 
     /* TODOS: para centrar un texto dentro del header*/
@@ -26,39 +27,42 @@ header{
 
 header div,
 header nav,
-header ul{
+header ul {
     display: flex;
     align-items: center;
 }
 
 
-header h1{
+header h1 {
     flex: 1;
 }
-header ul{
+
+header ul {
     list-style: none;
     padding: 0;
     gap: 10px;
 }
-ul > li{
+
+ul>li {
     height: 30px;
 
 }
-ul> li a{
+
+ul>li a {
     text-decoration: none;
     color: black;
     margin: 0 5px;
 
 }
 
-nav ul>li:hover{
+nav ul>li:hover {
     background: #f8f4f48c;
     border-bottom: 3px solid white;
 }
 
 /* todo: controlar eventos del header */
 
-header div{
+header div {
     position: fixed;
     top: 0;
     left: 0;
@@ -68,15 +72,12 @@ header div{
 }
 
 
-header div.off{
+header div.off {
     transform: translateY(-300px);
 
 }
 
-header div.solid{
+header div.solid {
     background: #ffffff;
     color: black;
 }
-
-
-
