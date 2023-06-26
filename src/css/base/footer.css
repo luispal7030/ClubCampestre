@@ -1,0 +1,15 @@
+/* estilos del footer*/
+footer {
+  background-color: #789C4A;
+}
+
+.box__copyright {
+  max-width: 1600px;
+  text-align: center;
+  padding: 10px 40px;
+}
+
+.box__copyright p {
+  margin-top: 1px;
+  color: white;
+}

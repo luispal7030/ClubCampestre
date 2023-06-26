@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: 0;
@@ -33,10 +33,10 @@ nav {
     font-size: 12px;
 }
 
-/* .logoImg {
+.logoImg {
     height: auto;
     margin: 0 5px;
-} */
+}
 
 .logoImg:nth-of-type(n+1) {
     margin: 5px;
@@ -85,4 +85,4 @@ nav a {
 .logoImg .mail {
 
     height: 25px;
-}
+} */

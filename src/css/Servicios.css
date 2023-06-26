@@ -147,9 +147,10 @@
   }
 
   .seleccion button {
-      background: #266041;
+      background: #29764d;
       border: 1px solid #3A9C0B;
-
+      font-weight: bold;
+      color: whitesmoke;
       border-radius: 10px;
       width: 120px;
       height: 35px;
@@ -157,6 +158,6 @@
 
   .seleccion button:hover {
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-      background: #29764d;
 
+      background: #266041;
   }
