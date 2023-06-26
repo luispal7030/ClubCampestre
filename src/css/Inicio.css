@@ -410,9 +410,6 @@ body {
 .cf::after {
   clear: both;
 }
-
-/* Estilos del Header */
-
 .flex-item {
   display: flex;
   justify-content: center;
@@ -475,10 +472,120 @@ body {
   line-height: 12px;
   text-transform: uppercase;
 }
-
-/* Hasta aqui Estilos del header */
-
-
+.remanso-hero {
+  margin-top: 130px;
+}
 .slick-slide img {
   width: 100%;
+}
+.remanso-comments {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: -150px;
+  margin-bottom: 100px;
+}
+.remanso-comments__person {
+  width: 250px;
+  border-radius: 10px;
+  background: rgba(120, 156, 74, 0.64);
+  padding: 24px 18px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.53);
+}
+.remanso-comments__person h3 {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 0;
+}
+.remanso-comments__person .remanso-comments__text {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  line-height: 13px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 14px;
+}
+.remanso-comments__person .remanso-comments__name {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 13px;
+  text-align: center;
+}
+.remanso-comments__person .remanso-comments__dni {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 13px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.remanso-informacion-club {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 42px;
+}
+.remanso-informacion-club__title h2 {
+  color: #789C4A;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.remanso-informacion-club__text {
+  color: #000;
+  font-size: 16px;
+  line-height: 18px;
+}
+.remanso-informacion-club__details {
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+  margin-top: 42px;
+}
+.remanso-informacion-club__details p {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  background: #789C4A;
+  padding: 9px 14px;
+  width: fit-content;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.remanso-informacion-club__details p span {
+  font-size: 15px;
+  line-height: 17px;
+}
+.remanso-informacion-club__details h3 {
+  color: #266041;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.remanso-social {
+  position: fixed;
+  bottom: 4%;
+  right: 0;
+  z-index: 50;
+  border-radius: 15px 0px 0px 10px;
+  background: #D9D8D6;
+  padding: 14px 14px;
+}
+.remanso-social__container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.remanso-fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
 }
