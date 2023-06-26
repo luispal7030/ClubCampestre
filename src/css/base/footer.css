@@ -4,7 +4,7 @@ footer {
 }
 
 .box__copyright {
-  max-width: 1600px;
+  /* max-width: 1600px; */
   text-align: center;
   padding: 10px 40px;
 }
