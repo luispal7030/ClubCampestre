@@ -31,12 +31,12 @@
 }
 .cuerpo{
     width: 100%;
-    height: 670px;
+    height: 400px;
     background-color: #fff;
     padding-top: 170px;
 }
 .cuerpo_texto{
-    width: 700px;
+    width: 650px;
     font-size: 18px;
     text-align: justify;
     margin: 0 auto;
