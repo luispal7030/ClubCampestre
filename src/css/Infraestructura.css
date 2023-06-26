@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --color-esqueleto:#EFF3F5;
+}
+
+.image-container {
+    width: 100%;
+  }
+  
+.img1 {
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+.img2{
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.h2 {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+.p1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+.p2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+  }
+
+
+.container__article{
+    max-width: 1000px;
+    padding: 0px 20px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container__article .box__article{
+    width: 2000px;
+    height: 250px;
+    background: #D9D8D6;
+    margin: 20px;
+}
+.h1{
+    text-align: center;
+    padding: 10px;
+    background-color: #789C4A;
+  }
+  
+ /* estilos del footer*/
+  footer{
+    background-color: #789C4A;
+}
+  .box__copyright{
+    max-width: 1600px;
+    text-align: center;
+    padding: 10px 40px;
+  }
+  
+  .box__copyright p{
+    margin-top: 1px;
+    color: white;
+  }

@@ -1,0 +1,70 @@
+/* Estilos para el contenedor del slider */
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+  }
+
+  /* Estilos para el slider */
+  .slider {
+    width: 750x;
+    height: 676px;
+    overflow: hidden;
+    position: relative;
+    background: #789C4A;
+  }
+  
+  .slider-inner {
+    width: 120%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-item {
+    width: 2000px;
+    height: 1500px;
+  }
+  
+  /* Estilos para los botones */
+  .slider-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+  }
+  
+  .slider-controls button {
+    margin: -0 400px;
+    background: #789C4A;
+    color: white
+  }
+
+  .h1{
+    text-align: center;
+    padding: 5px;
+    background-color: #789C4A;
+    color: white
+  }
+
+  .p{
+    background-color: white;
+    text-align: center;
+  }
+
+   /* estilos del footer*/
+ 
+  footer{
+    background-color: #789C4A;
+}
+  .box__copyright{
+    max-width: 1600px;
+    text-align: center;
+    padding: 10px 40px;
+  }
+  
+  .box__copyright p{
+    margin-top: 1px;
+    color: white;
+  }

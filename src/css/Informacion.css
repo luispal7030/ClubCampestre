@@ -1,0 +1,63 @@
+body{
+    background-color: #d7eeb9;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 80%;
+    height: 650px;
+    margin: 10px auto;
+    background-color: #e1f5c6;
+    border: 1px solid #a2bd7f;
+}
+.horario{
+    width: 70%;
+    height: 450px;
+    display: flex;
+}
+.contenedor h1{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+    color: #57c122;
+}
+.texto{
+    width: 80%;
+    height: 300px;
+    padding: 0 100px;
+    text-align: center;
+}
+.subtitulo{
+    font-size: 23px;
+    color: #3d8d18;  
+}
+.importante{
+    color: red;
+}
+span{
+    color: rgb(124, 177, 146);
+}
+.img{
+    width: 20%;
+    height: 500px;
+}
+.img img{
+    width: 450px;
+    height: 350px;
+    margin-top: 20px;
+    box-shadow: 10px 5px 10px #000;
+}
+.abajo{
+    display: flex;
+    text-align: center;
+    height: 115px;
+    background: #c1e197;
+}
+.contrato{
+    width: 50%;
+    margin-top: 10px;
+}
+.oficina{
+    width: 50%;
+    margin-top: 10px;
+}
