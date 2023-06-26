@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    position: relative;
+    background-color: rgb(201, 220, 201);
+}
+.cabeza{
+    position: relative;
+    text-align: center;
+    height: 350px;
+    background-color: #d7eeb9;
+}
+.cabeza h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin: 0;
+    color: #57c122;
+}
+.staff{
+    position: absolute;
+    top: 120px;
+    left: 33%;
+    width: 500px;
+    height: 350px;
+    margin-top: 25px;
+    box-shadow: 10px 5px 10px #000;
+}
+.cuerpo{
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    padding-top: 170px;
+}
+.cuerpo_texto{
+    width: 650px;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.diferente{
+    width: 650px;
+    text-align: left;
+}
+.pie{
+    width: 100%;
+    background: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.ubicacion{
+    display: flex;
+    background-color: #f3f1f1;
+}
+.texto{
+    width: 50%;
+    padding: 20px 60px;
+}
+.mapa{
+    width: 50%;
+}
+.ubicacion_titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #3A9C0B;
+}
+.ubicacion_texto{
+    text-align: justify;
+    width: 500px;
+    font-size: 18px;
+    margin: 10px auto;
+}
+.mapa_img{
+    width: 500px;
+    height: 300px;
+    padding: 10px 30px;
+    margin: 10px 47px;
+}
+span{
+    color: rgb(127, 147, 135);
+}
