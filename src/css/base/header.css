@@ -22,31 +22,67 @@ nav {
     width: 100vw;
 }
 
-.itm_Logo p {
-    font-size: 14px;
+.itm_Logo {
+    align-items: center;
+    background: blue;
 }
 
-.logoImg {
-    height: 25px;
+.itm_Logo p {
+    justify-content: center;
+    word-break: break-all;
+    font-size: 12px;
+}
+
+/* .logoImg {
+    height: auto;
+    margin: 0 5px;
+} */
+
+.logoImg:nth-of-type(n+1) {
+    margin: 5px;
+    height: 35px;
 }
 
 .banner_logo {
-    height: 50px;
+    height: 45px;
     background: #D9D8D6;
+    justify-content: space-evenly;
 
 }
 
 nav {
     background: #266041;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav li {
     list-style: none;
-
+    margin: 0 10px;
 }
 
 nav a {
     color: beige;
     text-decoration: none;
     padding: 0 5px;
+}
+
+
+
+.itm_Logo:nth-child(1) {
+    width: 220px;
+}
+
+.itm_Logo:nth-child(2),
+.itm_Logo:nth-child(3),
+.itm_Logo:nth-child(4) {
+    width: 215px;
+}
+
+
+.logoImg .mail {
+
+    height: 25px;
 }
