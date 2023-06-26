@@ -545,10 +545,10 @@ body {
   text-transform: uppercase;
 }
 
-.remanso-hero {
-  /* margin-top: 130px; */
-  margin-top: 2px;
-}
+/* .remanso-hero {
+  margin-top: 130px; 
+   margin-top: 2px;
+} */
 
 .slick-slide img {
   width: 100%;

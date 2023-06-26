@@ -1,3 +1,25 @@
 #bannericono {
+  width: 100%;
+  height: 90vh;
+  z-index: 100;
   position: absolute;
+  top: 130px;
+  display: flex;
+  align-items: center;
+}
+
+#bannericono img {
+  height: 250px;
+  margin: 20px 0;
+}
+
+.icono_logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remanso-hero {
+  position: relative;
 }
