@@ -1,34 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/base/header.css">
-    <link rel="stylesheet" href="../css/Informacion.css">
+
     <title>Información</title>
+    <link href="../css/Inicio.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base/footer.css">
+    <link rel="stylesheet" href="../css/Informacion.css">
 </head>
+
 <body>
+    <!-- Header -->
     <header>
-        <div>
-            <h1>Servicios</h1>
-            <nav>
+        <section class="remanso-info">
+            <div class="remanso-info__contact container">
+                <div class="remanso-info__contact__logo">
+                    <picture><img src="../assets/img/img-inicio/logo-remanso.png"
+                            srcset="../assets/img/img-inicio/logo-remanso.png, ../assets/img/img-inicio/logo-remanso@2x.png 2x"
+                            alt="Logo Remanso" title="Logo Remanso"></picture>
+                </div>
+                <div class="remanso-info__contact__details">
+                    <div class="remanso-info__contact__location flex-item">
+                        <div class="remanso-info__contact__img">
+                            <picture><img src="../assets/img/img-inicio/icon-location.png"
+                                    srcset="../assets/img/img-inicio/icon-location.png, ../assets/img/img-inicio/icon-location@2x.png 2x"
+                                    alt="Icono Localización" title="Icono Localización"></picture>
+                        </div>
+                        <div class="remanso-info__contact__text">
+                            <p>Jr. Los Gladiolos Nº 287 Urb. Los Huertos de Tungasuca, Comas</p>
+                        </div>
+                    </div>
+                    <div class="remanso-info__contact__whatsapp flex-item">
+                        <div class="remanso-info__contact__img">
+                            <picture><img src="../assets/img/img-inicio/icon-whatsapp.png"
+                                    srcset="../assets/img/img-inicio/icon-whatsapp.png, ../assets/img/img-inicio/icon-whatsapp@2x.png 2x"
+                                    alt="Icono Whatsapp" title="Icono Whatsapp"></picture>
+                        </div>
+                        <div class="remanso-info__contact__text">
+                            <p>993-120-834</p>
+                        </div>
+                    </div>
+                    <div class="remanso-info__contact__mail flex-item">
+                        <div class="remanso-info__contact__img">
+                            <picture><img src="../assets/img/img-inicio/icon-mail.png"
+                                    srcset="../assets/img/img-inicio/icon-mail.png, ../assets/img/img-inicio/icon-mail@2x.png 2x"
+                                    alt="Icono Correo" title="Icono Correo"></picture>
+                        </div>
+                        <div class="remanso-info__contact__text">
+                            <p>info@elremanso.com.pe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="remanso-nav">
+            <nav class="remanso-nav__pages container cf">
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Acerca De</a></li>
+                    <li><a href="#">Acerca</a></li>
                     <li><a href="#">Novedades</a></li>
                     <li><a href="#">Infraestructura</a></li>
                     <li><a href="#">Servicios</a></li>
                     <li><a href="#">Información</a></li>
-                    <li><a href="#">Contactenos</a></li>
+                    <li><a href="#">Contactanos</a></li>
                 </ul>
             </nav>
+        </section>
+        <!-- Fin Header -->
+
+
+        <section class="remanso-hero">
+            <div class="remanso-hero__img-slide">
+                <picture><img src="../assets/img/img-inicio/image-1.png"
+                        srcset="../assets/img/img-inicio/image-1.png, ../assets/img/img-inicio/image-1@2x.png 2x"
+                        alt="Imagen Hero 1" title="Imagen Hero 1"></picture>
+            </div>
+            <div class="remanso-hero__img-slide">
+                <picture><img src="../assets/img/img-inicio/image-2.png"
+                        srcset="../assets/img/img-inicio/image-2.png, ../assets/img/img-inicio/image-2@2x.png 2x"
+                        alt="Imagen Hero 2" title="Imagen Hero 2"></picture>
+            </div>
+            <div class="remanso-hero__img-slide">
+                <picture><img src="../assets/img/img-inicio/image-3.png"
+                        srcset="../assets/img/img-inicio/image-3.png, ../assets/img/img-inicio/image-3@2x.png 2x"
+                        alt="Imagen Hero 3" title="Imagen Hero 3"></picture>
+            </div>
+        </section>
+    </header>
+
+    <!-- ? inicio del main-->
+
+    <!-- ? inicio del footer-->
+    <footer>
+        <div class="box__copyright">
+            <p>Todos los derechos reservados © 2023 <b>El Remanso</b></p>
         </div>
-       </header>
+    </footer>
+    <!-- ? inicio del footer-->
 
-       <!-- ? inicio del main-->
 
-    <script src="../js/script-header.js"></script>
+    <script type="text/javascript" src="../js/Inicio.js"></script>
     <script src="../js/Informacion.js"></script>
 </body>
+
 </html>
